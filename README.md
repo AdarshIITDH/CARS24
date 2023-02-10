@@ -9,7 +9,7 @@
 ## Requirements
 
   * Python 3.8
-  * scipyawe
+  * scipy
   * Flask
   * OpenCV
   * Numpy
