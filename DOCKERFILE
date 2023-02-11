@@ -1,0 +1,12 @@
+FROM python:3.8
+COPY . /workspace
+WORKDIR /workspace
+RUN apt-get update
+RUN apt install nano
+COPY requirement.txt requirements.txt
+RUN pip3 install -r requirements.txt
+RUN apt install libgl1 -y
+EXPOSE 5000
+CMD ["python3","application.py"]
+
+
