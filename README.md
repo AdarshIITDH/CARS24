@@ -7,7 +7,7 @@
 
 ## Running
 
-Option1: Clone repository, go to the specified folder and run
+**Option1:** Clone repository, go to the specified folder and run
  ```
  python application.py
  ```
@@ -16,7 +16,16 @@ Option1: Clone repository, go to the specified folder and run
  ```
  Open your browser and access the address http://127.0.0.1:5000/ .
 
-Option2 : 
+**Option2 :** Use the DOCKERFILE to build the containerised application.
+Run the below commond inside the directory.
+```
+docker build -t cars24:01 .
+```
+```
+docker run -it -p 5000:5000 cars24:01
+```
+Open your browser and access the address http://192.168.100.99:5000/ . (Use ip of your host machine with port 5000)
+
 
 ## Requirements
 ```
