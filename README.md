@@ -31,12 +31,7 @@ Open your browser and access the address http://192.168.100.99:5000/ . (Use ip o
 ```
 pip3 install -r requirement.txt
 ```
-  * Python 3.8
-  * scipy
-  * Flask
-  * OpenCV
-  * Numpy
-
+or
 
 To install required libraries, use commands below:
 ```
