@@ -18,8 +18,9 @@ Open your browser and access the address http://127.0.0.1:5000/ .
 
 
 ## Requirements
+```
 pip3 install -r requirement.txt
-
+```
   * Python 3.8
   * scipy
   * Flask
