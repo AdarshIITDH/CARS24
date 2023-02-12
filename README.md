@@ -5,17 +5,18 @@
 
 ![Demo screenshot](/static/imgs/demo.png?raw=true "Demo")
 
-
 ## Running
-Clone repository, go to the specified folder and run
-```
-python application.py
-```
-```
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-```
-Open your browser and access the address http://127.0.0.1:5000/ .
 
+Option1: Clone repository, go to the specified folder and run
+ ```
+ python application.py
+ ```
+ ```
+  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ ```
+ Open your browser and access the address http://127.0.0.1:5000/ .
+
+Option2 : 
 
 ## Requirements
 ```
