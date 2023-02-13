@@ -47,7 +47,10 @@ If you want to try another MLP architecture, edit *train.py* and run
 ```
 python train.py
 ```
-
+for pytorch model training and data downloading
+```
+python training_pt.py
+```
 
 ## Contact
 If you have any further questions or suggestions, please, do not hesitate to contact by email at aadarsh307kumar@gmail.com.
