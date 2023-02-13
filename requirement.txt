@@ -3,3 +3,5 @@ scipy
 opencv-python3
 opencv-python3-headless
 numpy
+torch
+torchvision
