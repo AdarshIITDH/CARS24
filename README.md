@@ -26,6 +26,12 @@ docker run -it -p 5000:5000 cars24:01
 ```
 Open your browser and access the address http://192.168.100.99:5000/ . (Use ip of your host machine with port 5000)
 
+**Option3 :** Use the deployment file to run the same container in K8s cluster.
+Run the below commond 
+```
+kubectl apply -f deployment.yaml
+```
+
 
 ## Requirements
 ```
