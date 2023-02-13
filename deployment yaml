@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: car
+spec:
+  selector:
+    matchLabels:
+      run: car
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        run: car
+    spec:
+      nodeName: jarvis
+       containers:
+      - name: cars24
+        image: cars24:01
+        command: ["/bin/sh", "-c"]
+        args:
+          -  echo starting;         
+            cd /workspace;
+            python3 application.py ;
+            echo done;
+        resources:
+         limits:
+           nvidia.com/: 0 #gpu index 0
+        ports:
+        - containerPort: 5000
